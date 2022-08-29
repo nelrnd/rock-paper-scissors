@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+div#score {
+  text-align: center;
+  height: 120px;
+}
+
+.playerOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.playerOption {
+  flex: 0 1 auto;
+  padding: 8px;
+}
+.label {
+  flex: 1 0 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgb(54, 54, 54);
+}
+
+button {
+  display: block;
+  padding: 8px;
+  min-width: 100px;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
